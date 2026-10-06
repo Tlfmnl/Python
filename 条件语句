@@ -1,0 +1,7 @@
+mood_index = int(input("老爹今天的心情指数是："))
+if mood_index >= 60:
+    print("恭喜你！今天不用洗碗！")
+    print("^^")
+else:
+    print("哦豁！今天继续洗碗……")
+    print("还要把衣服折了！！！")
