@@ -1,0 +1,10 @@
+contacts = ["老胥","老曾","老沈","老董","老白","老陈"]
+year = "马"
+for name in contacts:
+    message_content ="金" + year + "贺岁，欢乐祥瑞\n" + \
+                     "金" + year + "敲门，五福临门\n" + \
+                     "给" + name + "及其家人拜年啦\n" + \
+                     "新春快乐，"+ year +"年大吉！"
+    print(name)
+    print(message_content)
+    print("-"*20)
