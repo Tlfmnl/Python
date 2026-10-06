@@ -1,0 +1,19 @@
+shopping_list = []
+shopping_list.append("防晒霜")
+shopping_list.append("垃圾袋")
+shopping_list.append("吹风机")
+shopping_list.remove("垃圾袋")
+shopping_list.append("毛巾")
+shopping_list.append("铁篮子")
+
+print(shopping_list)
+print(len(shopping_list))
+print(shopping_list[3])
+
+price = [278,399.599,856]
+max_price = max(price)
+min_price = min(price)
+sorted_price = sorted(price)
+print(max_price)
+print(min_price)
+print(sorted_price)
