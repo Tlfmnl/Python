@@ -1,0 +1,16 @@
+list1 = []
+total = 0
+count = 0
+while True:
+    user_input = input("请输入数字（输入完成后请输入q以终止程序）：")
+    if user_input == "q":
+        break
+    num = float(user_input)
+    list1.append(num)
+    total += num
+    count += 1
+if count == 0:
+    print("您没有输入数字")
+else:
+    result = (total / count)
+    print(result)
