@@ -1,0 +1,13 @@
+score = {"老张":"82","老王":"95","老陈":"87","老周":"93","老钱":"98"}
+student = input("请输入您要查询的学生：")
+if student in score:
+    print(score[student])
+else:
+    print("查无此人")
+addition = input("请输入您要添加的学生及成绩（按照’：‘的格式填写）：")
+if addition in score:
+    print("该学生已存在，无法添加！")
+else:
+    score[addition] =
+    print("添加成功！")
+    print("现在成绩单中已有如下几位同学：" + len(score))
